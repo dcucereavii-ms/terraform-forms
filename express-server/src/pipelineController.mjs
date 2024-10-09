@@ -20,8 +20,8 @@ export const triggerPipeline = async (req, res) => {
   }
 
   // Repository ID and Project ID
-  const repoId = 'd4273e58-2ba0-4a50-9699-00bb5116cb4f';
-  const project = 'c9535ec7-d2e7-48cd-a59f-c3cfb8a44404';
+  const repoId = 'your_repo_id';
+  const project = 'your_project_id';
   const apiVersion = '7.1-preview.1'; // API version
 
   const baseBranch = 'master'; // Base branch for PR
